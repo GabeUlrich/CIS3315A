@@ -34,6 +34,7 @@ public class CH8Ragged {
 
             }
             System.out.println("");
+            
         }
     }
 }
