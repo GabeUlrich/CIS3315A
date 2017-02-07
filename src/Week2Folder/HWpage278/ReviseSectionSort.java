@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Week2Folder.HWpage278;
 
 import java.util.Scanner;
@@ -25,7 +21,6 @@ public class ReviseSectionSort {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = input.nextDouble();
         }
-
         selectionSort(numbers);
         printArray(numbers, 10);
     }
@@ -42,7 +37,6 @@ public class ReviseSectionSort {
                     currentHigh = numbers[k];
                 }
             }
-
             // if currentIndex changed swap
             if (currentIndex != i) {
                 double temp = numbers[currentIndex];

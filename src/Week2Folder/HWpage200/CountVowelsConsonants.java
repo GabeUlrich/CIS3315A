@@ -17,21 +17,21 @@ public class CountVowelsConsonants {
 
         System.out.print("Enter a string (a sentence of word): ");
         String str = sc.nextLine();
-        
+
         String vowels = "aeiouAEIOU";
         int vowel = 0;
         int consonant = 0;
         int i = 0;
         int length = str.length();
 
-        for(i = 0; i < length; i ++){
-        char currentChar = str.charAt(i);
-        if (vowels.indexOf(currentChar)>=0)
-           vowel++;
-        else if(Character.isLetter(currentChar))
+        for (i = 0; i < length; i++) {
+            char currentChar = str.charAt(i);
+            if (vowels.indexOf(currentChar) >= 0) {
+                vowel++;
+            } else if (Character.isLetter(currentChar)) {
                 consonant++;
+            }
         }
-
         System.out.println("The number of vowels is: " + vowel);
 
         System.out.println("The number of consonants is: " + consonant);

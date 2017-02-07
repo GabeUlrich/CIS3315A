@@ -31,10 +31,8 @@ public class CH8Ragged {
         for (int row = 0; row < triangleArray.length; row++) {
             for (int column = 0; column < triangleArray[row].length; column++) {
                 System.out.println(triangleArray[row][column] + " ");
-
             }
             System.out.println("");
-            
         }
     }
 }

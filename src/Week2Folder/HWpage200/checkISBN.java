@@ -38,6 +38,5 @@ public class checkISBN {
         } else {
             System.out.println(s + " is invalid input");
         }
-
     }
 }

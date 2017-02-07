@@ -22,7 +22,6 @@ public class ReverseString {
         for (int i = length - 1; i >= 0; i--) {
             reverse = reverse + one.charAt(i);
         }
-
         System.out.println("The reversed string is ---> " + reverse);
     }
 }
