@@ -6,14 +6,16 @@ package Week3Folder;
  * @author Administrator
  */
 public class Chess {
+
     public static void display(char[][] b) {
-        for (int row = 0; row < b.length; row++){
-            for(int col = 0; col <b[row].length; col++){
+        for (int row = 0; row < b.length; row++) {
+            for (int col = 0; col < b[row].length; col++) {
                 System.out.print(b[row][col] + " ");
             }
             System.out.println("");
         }
     }
+
     public static void main(String[] args) {
 //        [][][] page, row and column
         char[][] board = {
@@ -25,6 +27,7 @@ public class Chess {
             {'-', '-', '-', '-', '-', '-', '-', '-'},
             {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
             {'R', 'H', 'B', 'Q', 'K', 'B', 'H', 'R'}
+
         };
         display(board);
         board[0][1] = '-';
