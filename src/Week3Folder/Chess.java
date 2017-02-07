@@ -18,6 +18,7 @@ public class Chess {
 
     public static void main(String[] args) {
 //        [][][] page, row and column
+//        [][] row, column
         char[][] board = {
             {'r', 'h', 'b', 'q', 'k', 'b', 'h', 'r'},
             {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
