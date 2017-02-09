@@ -17,7 +17,7 @@ public class CH8Ragged {
             {20, 3, 4, 5},
             {3, 4, 5},
             {4, 5},
-            {5}
+            {5,0}
         };
         System.out.println("0,0 = " + triangleArray[0][0]);
         System.out.println("0,1 = " + triangleArray[0][1]);

@@ -8,6 +8,5 @@ package Week3Folder;
 public class ChessUI {
     public static void main(String[] args) {
         ChessBoard chess = new ChessBoard();
-        
     }
 }
