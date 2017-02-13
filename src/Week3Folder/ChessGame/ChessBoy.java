@@ -16,6 +16,7 @@ public class ChessBoy {
      */
     public final static String SYMBOLS = "rhbqkp-";
 
+    
     /**
      * String array that contains the names of each type of chessBoy.
      */
@@ -36,6 +37,7 @@ public class ChessBoy {
     /**
      * Constructs a new chessBoy object for a given symbol.
      *
+     * 
      * @param symbol
      */
     public ChessBoy(String symbol) {
