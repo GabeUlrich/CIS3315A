@@ -5,7 +5,7 @@ import Week3Folder.*;
 /**
  * insight on how to make a chess board 64 squares, 8 rows 8 columns
  *
- * @author Administrator
+ * @author Administrator Gabe
  */
 public class Chess {
 

@@ -60,6 +60,7 @@ public class ChessUI {
                     gameOver = true;
                     break;
                 }
+                
             }
 
             // make the move and display the board

@@ -30,6 +30,7 @@ public class ChessBoard {
     }
 
     /**
+     * 
      * Gets a chessBoy piece from the given position.
      *
      * @param position
@@ -39,6 +40,7 @@ public class ChessBoard {
         int row = position2Row(position);
         int col = position2Column(position);
         return board[row][col];
+        
     }
 
     /**

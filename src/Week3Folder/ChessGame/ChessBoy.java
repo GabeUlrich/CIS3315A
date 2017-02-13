@@ -7,7 +7,7 @@ package Week3Folder.ChessGame;
 
 /**
  *
- * @author Administrator
+ * @author Administrator Gabe
  */
 public class ChessBoy {
 
