@@ -1,6 +1,5 @@
 package Week3Folder.ChessGame;
 
-
 import java.util.Scanner;
 
 /**
@@ -12,9 +11,6 @@ public class ChessUI {
     ChessBoard myBoard;
     Scanner sc = new Scanner(System.in);
 
-    /**
-     * Main UI loop allows for one or more two-player chess games to be played.
-     */
     public ChessUI() {
         String playAgain = "y";
         while (playAgain.equalsIgnoreCase("y")) {
@@ -31,7 +27,7 @@ public class ChessUI {
         int count = 0;
         System.out.println(myBoard);
 
-        // loop until the game is over
+        // loop until over
         while (!gameOver) {
             if (count % 2 == 0) {
                 System.out.println("White's move.");
@@ -39,7 +35,7 @@ public class ChessUI {
                 System.out.println("Black's move.");
             }
 
-            // loop until a valid move is entered or the user quits
+            // loop until a move is entered or quits
             while (true) {
                 System.out.print("Enter location to move from (e.g. h2): ");
                 from = sc.nextLine();
@@ -60,10 +56,9 @@ public class ChessUI {
                     gameOver = true;
                     break;
                 }
-                
+
             }
 
-            // make the move and display the board
             myBoard.move(from, to);
             System.out.println(myBoard);
             count++;
@@ -79,4 +74,3 @@ public class ChessUI {
         ChessUI game = new ChessUI();
     }
 }
-
