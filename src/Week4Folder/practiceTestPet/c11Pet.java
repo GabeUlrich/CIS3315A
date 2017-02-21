@@ -1,5 +1,7 @@
 
-package Week4Folder;
+package Week4Folder.practiceTestPet;
+
+import Week4Folder.*;
 
 /**
  *Use inheritance and implement method called"
