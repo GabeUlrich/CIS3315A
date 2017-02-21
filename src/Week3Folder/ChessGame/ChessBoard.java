@@ -5,7 +5,6 @@ import Week3Folder.*;
 /**
  *
  *
- *
  * @author Administrator Gabe
  */
 public class ChessBoard {

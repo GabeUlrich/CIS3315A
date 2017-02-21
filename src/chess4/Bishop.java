@@ -4,6 +4,7 @@ package chess4;
  *
  * @author gabe
  */
+
 public class Bishop extends Chessman {
 
     public Bishop(String color) {

@@ -5,6 +5,7 @@ import java.awt.BorderLayout;
 /**
  * Example of ragged array
  *
+ * 
  * @author Administrator Gabe
  */
 public class CH8Ragged {
