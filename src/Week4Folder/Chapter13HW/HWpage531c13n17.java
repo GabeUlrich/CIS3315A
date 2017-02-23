@@ -7,9 +7,16 @@ package Week4Folder.Chapter13HW;
  */
 public class HWpage531c13n17 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         Complex c1 = new Complex(3.5, 5.5);
-
+        Complex c2 = (Complex)c1.clone();
+        System.out.println("c1= " + c1);
+        System.out.println("c2=" + c2);
+        c2.setA(5.5);
+        c2.setB(8.5);
+        System.out.println("c1= " + c1);
+        System.out.println("c2=" + c2);
+        System.out.println("c2-c1=" + c2.sub(c1));
     }
 }
 
@@ -48,4 +55,15 @@ class Complex implements Cloneable {
         return new Complex((a - c.getA()), (b - c.getB()));
     }
 
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+        
+//        516 is a more complex method
+    }
+
+    @Override
+    public String toString() {
+        return "Complex{" + "a=" + a + ", b=" + b + '}';
+    }
+    
 }
