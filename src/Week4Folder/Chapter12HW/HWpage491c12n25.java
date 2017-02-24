@@ -49,14 +49,14 @@ public class HWpage491c12n25 {
         long assoTotal = (long) getTotal(allRanks.get(ASSO).toArray());
         long fullTotal = (long) getTotal(allRanks.get(FULL).toArray());
         long total = assiTotal + assoTotal + fullTotal;
-        System.out.println("Assistant total = " + assiTotal);
-        System.out.println("Associate total = " + assoTotal);
-        System.out.println("Full total = " + fullTotal);
-        System.out.println("All Total = " + total);
-        System.out.printf("Assistant average = %.2f \n", getAverage(assiTotal, allRanks.get(ASSI).size()));
-        System.out.printf("Associate average = %.2f \n", getAverage(assoTotal, allRanks.get(ASSO).size()));
-        System.out.printf("Full average = %.2f \n", getAverage(fullTotal, allRanks.get(FULL).size()));
-        System.out.printf("All average = %.2f \n", getAverage(total, getInternalSize(allRanks)));
+        System.out.println("Assistant salary total = " + assiTotal);
+        System.out.println("Associate salary total = " + assoTotal);
+        System.out.println("Full salary total = " + fullTotal);
+        System.out.println("All salary Total = " + total);
+        System.out.printf("Assistant salary average = %.2f \n", getAverage(assiTotal, allRanks.get(ASSI).size()));
+        System.out.printf("Associate salary average = %.2f \n", getAverage(assoTotal, allRanks.get(ASSO).size()));
+        System.out.printf("Full salary average = %.2f \n", getAverage(fullTotal, allRanks.get(FULL).size()));
+        System.out.printf("All salary average = %.2f \n", getAverage(total, getInternalSize(allRanks)));
 
     }
 

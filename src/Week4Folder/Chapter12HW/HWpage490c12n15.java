@@ -12,7 +12,7 @@ import java.util.Scanner;
  * it does not exist. Write 100 integers created randomly into the file using
  * text I/O. Integers are separated by spaces in the file. Read the data back
  * from the file and display the data in increasing order.
- *
+ *- John 1:5-6
  * @author Administrator Gabe
  */
 public class HWpage490c12n15 {

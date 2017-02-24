@@ -1,4 +1,3 @@
-
 package Week4Folder.Chapter12HW;
 
 import java.util.Random;
@@ -6,10 +5,11 @@ import java.util.Scanner;
 
 /**
  *
- * 
+ *
  * @author Administrator Gabe - Solution ProfPhilips
  */
 public class HWpage488c12n3 {
+
     public static void main(String[] args) {
         int[] a = new int[100];
         Random gen = new Random();
@@ -27,5 +27,5 @@ public class HWpage488c12n3 {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Out of Bounds");
         }
-}
+    }
 }

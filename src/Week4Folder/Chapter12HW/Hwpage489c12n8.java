@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author Administrator
+ * @author Administrator Gabe - Solution ProfPhilips
+ * 
  */
 public class Hwpage489c12n8 {
 
